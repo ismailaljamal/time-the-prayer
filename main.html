@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>مواقيت الصلاة</title>
+  </head>
+  <body>
+    </head>
+    <style>
+        body{
+    direction: rtl;
+    background-color: #FE5D26;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#container{
+    margin: 50px;
+    padding: 20px;
+}
+h1{
+    font-size: 50px;
+}
+#date{
+    font-size:25px ;
+    margin-bottom: 20px;
+}
+#prayers-times{
+    display: flex;
+    justify-content: space-around;
+}
+#prayer-box{
+    background: white;
+    color: black;
+    width:150px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 24px;
+    border-radius: 15px;
+}
+#prayer-name{
+    background:  #FE5D26;
+    padding: 5px;
+    color: white;
+    border-radius: 15px;
+}
+#prayer-time{
+    margin-top: 15px;
+    font-weight: bold;
+}
+#city-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+#cities{
+    width: 200px;
+    height: 40px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15px;
+    color:#000000
+}
+
+#cities option{
+    background: #fe2626;
+}
+    </style>
+    <body>
+        <div id="container">
+            <h1 id="main">اختر العاصمة</h1>
+            <div id="date">الأحد 23 مارس 2025</div>
+            <hr>
+            <div id="prayers-times">
+                <div id="prayer-box">
+                    <div id="prayer-name">الفجر</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+                <div id="prayer-box">
+                    <div id="prayer-name">الشروق</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+                <div id="prayer-box">
+                    <div id="prayer-name">الظهر</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+                <div id="prayer-box">
+                    <div id="prayer-name">العصر</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+                <div id="prayer-box">
+                    <div id="prayer-name">المغرب</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+                <div id="prayer-box">
+                    <div id="prayer-name">العشاء</div>
+                    <div id="prayer-time">00:00</div>
+                </div>
+            </div>
+            <div id="city-box">
+                <select id="cities">
+                    <option>الرياض , السعودية</option>
+                    <option>القاهرة , مصر</option>
+                    <option>بغداد , العراق</option>
+                    <option>دمشق , سوريا</option>
+                    <option>الجزائر , الجزائر</option>
+                    <option>تونس , تونس</option>
+                    <option>عمان , الاردن</option>
+                    <option>القدس , فلسطين</option>
+                    <option>الكويت , الكويت</option>
+                    <option>المنامة , البحرين</option>
+                    <option>الدوحة , قطر</option>
+                    <opiton>ابو ظبي , الامارات</opiton>
+                    <option>مسقط , عمان</option>
+                    <option>صنعاء , اليمن</option>
+                    <option>طرابلس , ليبيا</option>
+                    <option>الرباط , المغرب</option>
+                    <option>نواكشوط , موريتانيا</option>
+                    <option>الخرطوم , السودان</option>
+                    <option>جيبوتي , جيبوتي</option>
+                    <option>مقد يشو , الصومال</option>
+                    <option>موروني , جزر القمر</option>
+                    <option>بيروت , لبنان</option>
+                </select>
+            </div>
+            <link src="style.css">
+            <script src="script.js"></script>
+    </body>
+</html>
